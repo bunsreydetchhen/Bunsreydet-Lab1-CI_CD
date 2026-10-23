@@ -44,7 +44,7 @@ out/
 # Ignore npm lockfile if you use Yarn or want to keep only one lockfile in the repo
 package-lock.json
 # Uncomment if you want to ignore Yarn lockfile too
-yarn.lock
+# yarn.lock
 
 # CI / test artifacts
 .test-results/
