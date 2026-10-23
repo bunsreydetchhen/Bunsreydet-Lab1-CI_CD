@@ -1,0 +1,59 @@
+# Dependencies
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage / test output
+coverage/
+.nyc_output/
+*.lcov
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Editor / IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+dist/
+build/
+out/
+
+# Package manager lockfiles
+# Ignore npm lockfile if you use Yarn or want to keep only one lockfile in the repo
+package-lock.json
+# Uncomment if you want to ignore Yarn lockfile too
+yarn.lock
+
+# CI / test artifacts
+.test-results/
+.jest-cache/
+.cache/
+*.tap
+
+.yarn/*
+!.yarn/releases
+!.yarn/patches
+!.yarn/plugins
+.pnp.*
